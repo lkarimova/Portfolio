@@ -691,6 +691,10 @@
     color: var(--color-white);
   }
 
+  .italic {
+    font-style: italic;
+  }
+
   .underline {
     text-decoration-line: underline;
   }

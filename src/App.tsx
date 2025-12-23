@@ -13,6 +13,8 @@ import salesforceOfficeSecondaryImage from 'figma:asset/b2efd5b1521bcd12f2dc43dc
 import aiCodingImage from 'figma:asset/d5c6f2b13c7bbe15b67252c3487b25f433ef7e54.png';
 import aiCodingSecondaryImage from 'figma:asset/495aad397da894c43aedb020fe0661d999f6968e.png';
 import aiCodingDiagramImage from 'figma:asset/b74506a5967f1f2b15ac8ed014a8cfbaaaa5d1cc.png';
+import unityPrepImage from 'figma:asset/4db9d4fd5e1d09aa2bf7d30e85264fd4afd2189a.png';
+import unityPrepSecondaryImage from 'figma:asset/944e1aba4213f6788037dbc40ccaf8f0d5aaf25d.png';
 
 interface Project {
   id: number;
@@ -31,30 +33,6 @@ interface Project {
 }
 
 const portfolioProjects: Project[] = [
-  {
-    id: 1,
-    image: 'https://images.unsplash.com/photo-1659985281435-d8d3ea55b55c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzY2hvb2wlMjBjbGFzc3Jvb20lMjBicmlnaHR8ZW58MXx8fHwxNzY2NDE3OTU3fDA&ixlib=rb-4.1.0&q=80&w=1080',
-    title: 'Unity Prep',
-    description: 'Making a school\'s identity shine.',
-    fullDescription: 'Unity Prep is a forward-thinking educational institution focused on creating an engaging and inclusive learning environment. The branding and identity work aimed to capture the school\'s dynamic spirit and commitment to student success.',
-    link: 'https://unityprep.org',
-    secondaryImage: 'https://images.unsplash.com/photo-1659985281435-d8d3ea55b55c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzY2hvb2wlMjBjbGFzc3Jvb20lMjBicmlnaHR8ZW58MXx8fHwxNzY2NDE3OTU3fDA&ixlib=rb-4.1.0&q=80&w=1080',
-    secondaryDescription: 'Through comprehensive research and stakeholder engagement, we developed a cohesive visual system that celebrates the school\'s values while resonating with students, parents, and educators alike.',
-    role: 'Qualitative & Quantitative Researcher, Branding Strategist, Information Architect',
-    hideLink: true,
-  },
-  {
-    id: 2,
-    image: 'https://images.unsplash.com/photo-1575388902449-6bca946ad549?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjByZXN1bWUlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzY2NDE3OTU3fDA&ixlib=rb-4.1.0&q=80&w=1080',
-    title: 'Resume.io',
-    description: 'Bringing simplicity to a feature-rich platform.',
-    fullDescription: 'Resume.io is an online platform that helps users create professional resumes with ease. The design strategy focused on simplifying complex features while maintaining powerful functionality for job seekers.',
-    link: 'https://resume.io',
-    secondaryImage: 'https://images.unsplash.com/photo-1575388902449-6bca946ad549?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjByZXN1bWUlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzY2NDE3OTU3fDA&ixlib=rb-4.1.0&q=80&w=1080',
-    secondaryDescription: 'Working closely with users and stakeholders, we streamlined the interface and improved the information architecture to make resume building intuitive and accessible.',
-    role: 'Qualitative & Quantitative Researcher, Workshop Facilitator, Design Strategist',
-    hideLink: true,
-  },
   {
     id: 3,
     image: telereaImage,
@@ -129,6 +107,30 @@ const portfolioProjects: Project[] = [
     tertiaryImage: aiCodingSecondaryImage,
     secondaryDescription: 'My workflows are supplemented with ideation and image-generation tools like ideamap.ai, florafauna.ai, and Figma Make, alongside coding tools such as Figma MCP, Cursor, Github and various UI libraries. This enables me to dedicate more time to design research, strategy and exploration, building stronger design identities and richer experiences.',
     role: 'New tools i\'m experimenting with',
+    hideLink: true,
+  },
+  {
+    id: 1,
+    image: unityPrepImage,
+    title: 'Unity Prep',
+    description: 'Making a school\'s identity shine.',
+    fullDescription: 'Unity Prep is a tuition-free public charter middle & high school that empowers students as scholars and citizens so they may lead fulfilling academic, personal, and professional lives. I performed a research-driven website redesign, focused on clarifying Unity Prep\'s story.',
+    link: 'https://unityprep.org',
+    secondaryImage: unityPrepSecondaryImage,
+    secondaryDescription: 'Working within an existing design system, I led qualitative and quantitative research to refine Unity\'s verbal identity, restructure the site\'s information architecture, and strengthen information scent—making what sets Unity apart immediately clear to prospective families.',
+    role: 'Qualitative & Quantitative Researcher, Branding Strategist, Information Architect',
+    company: 'Contract Role',
+  },
+  {
+    id: 2,
+    image: 'https://images.unsplash.com/photo-1575388902449-6bca946ad549?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjByZXN1bWUlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzY2NDE3OTU3fDA&ixlib=rb-4.1.0&q=80&w=1080',
+    title: 'Resume.io',
+    description: 'Bringing simplicity to a feature-rich platform.',
+    fullDescription: 'Resume.io is an online platform that helps users create professional resumes with ease. The design strategy focused on simplifying complex features while maintaining powerful functionality for job seekers.',
+    link: 'https://resume.io',
+    secondaryImage: 'https://images.unsplash.com/photo-1575388902449-6bca946ad549?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjByZXN1bWUlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzY2NDE3OTU3fDA&ixlib=rb-4.1.0&q=80&w=1080',
+    secondaryDescription: 'Working closely with users and stakeholders, we streamlined the interface and improved the information architecture to make resume building intuitive and accessible.',
+    role: 'Qualitative & Quantitative Researcher, Workshop Facilitator, Design Strategist',
     hideLink: true,
   },
 ];
@@ -290,7 +292,7 @@ export default function App() {
 
             {/* Project Company */}
             {selectedProject.company && (
-              <p className="mb-6 text-gray-400 text-[14px] md:text-[16px]" style={{ lineHeight: 1.4 }}>
+              <p className="mb-6 text-gray-400 text-[14px] md:text-[16px] italic" style={{ lineHeight: 1.4 }}>
                 {selectedProject.company}
               </p>
             )}
@@ -626,7 +628,7 @@ export default function App() {
             {/* Asymmetrical Grid - 3 columns on desktop, 1 column on mobile */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-y-16 md:gap-y-20 md:gap-x-16 mb-12 md:mb-24">
               {/* Row 1 */}
-              <div key={portfolioProjects[0].id} className="col-span-1 group cursor-pointer" onClick={() => handleProjectClick(portfolioProjects[0])}>
+              <div key={portfolioProjects[0].id} className="col-span-1 md:col-span-2 group cursor-pointer" onClick={() => handleProjectClick(portfolioProjects[0])}>
                 <div className="aspect-[16/10] overflow-hidden mb-6 bg-gray-100">
                   <img
                     src={portfolioProjects[0].image}
@@ -644,7 +646,7 @@ export default function App() {
                 </div>
               </div>
 
-              <div key={portfolioProjects[1].id} className="col-span-1 md:col-span-2 group cursor-pointer" onClick={() => handleProjectClick(portfolioProjects[1])}>
+              <div key={portfolioProjects[1].id} className="col-span-1 group cursor-pointer" onClick={() => handleProjectClick(portfolioProjects[1])}>
                 <div className="aspect-[16/10] overflow-hidden mb-6 bg-gray-100">
                   <img
                     src={portfolioProjects[1].image}
@@ -663,7 +665,7 @@ export default function App() {
               </div>
 
               {/* Row 2 */}
-              <div key={portfolioProjects[2].id} className="col-span-1 md:col-span-2 group cursor-pointer" onClick={() => handleProjectClick(portfolioProjects[2])}>
+              <div key={portfolioProjects[2].id} className="col-span-1 group cursor-pointer" onClick={() => handleProjectClick(portfolioProjects[2])}>
                 <div className="aspect-[16/10] overflow-hidden mb-6 bg-gray-100">
                   <img
                     src={portfolioProjects[2].image}
@@ -681,7 +683,7 @@ export default function App() {
                 </div>
               </div>
 
-              <div key={portfolioProjects[3].id} className="col-span-1 group cursor-pointer" onClick={() => handleProjectClick(portfolioProjects[3])}>
+              <div key={portfolioProjects[3].id} className="col-span-1 md:col-span-2 group cursor-pointer" onClick={() => handleProjectClick(portfolioProjects[3])}>
                 <div className="aspect-[16/10] overflow-hidden mb-6 bg-gray-100">
                   <img
                     src={portfolioProjects[3].image}
@@ -700,7 +702,7 @@ export default function App() {
               </div>
 
               {/* Row 3 */}
-              <div key={portfolioProjects[4].id} className="col-span-1 group cursor-pointer" onClick={() => handleProjectClick(portfolioProjects[4])}>
+              <div key={portfolioProjects[4].id} className="col-span-1 md:col-span-2 group cursor-pointer" onClick={() => handleProjectClick(portfolioProjects[4])}>
                 <div className="aspect-[16/10] overflow-hidden mb-6 bg-gray-100">
                   <img
                     src={portfolioProjects[4].image}
@@ -718,7 +720,7 @@ export default function App() {
                 </div>
               </div>
 
-              <div key={portfolioProjects[5].id} className="col-span-1 md:col-span-2 group cursor-pointer" onClick={() => handleProjectClick(portfolioProjects[5])}>
+              <div key={portfolioProjects[5].id} className="col-span-1 group cursor-pointer" onClick={() => handleProjectClick(portfolioProjects[5])}>
                 <div className="aspect-[16/10] overflow-hidden mb-6 bg-gray-100">
                   <img
                     src={portfolioProjects[5].image}
@@ -736,7 +738,7 @@ export default function App() {
                 </div>
               </div>
 
-              <div key={portfolioProjects[6].id} className="col-span-1 md:col-span-2 group cursor-pointer" onClick={() => handleProjectClick(portfolioProjects[6])}>
+              <div key={portfolioProjects[6].id} className="col-span-1 group cursor-pointer" onClick={() => handleProjectClick(portfolioProjects[6])}>
                 <div className="aspect-[16/10] overflow-hidden mb-6 bg-gray-100">
                   <img
                     src={portfolioProjects[6].image}
@@ -754,7 +756,7 @@ export default function App() {
                 </div>
               </div>
 
-              <div key={portfolioProjects[7].id} className="col-span-1 group cursor-pointer" onClick={() => handleProjectClick(portfolioProjects[7])}>
+              <div key={portfolioProjects[7].id} className="col-span-1 md:col-span-2 group cursor-pointer" onClick={() => handleProjectClick(portfolioProjects[7])}>
                 <div className="aspect-[16/10] overflow-hidden mb-6 bg-gray-100">
                   <img
                     src={portfolioProjects[7].image}

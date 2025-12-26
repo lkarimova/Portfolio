@@ -1,20 +1,20 @@
 import { useState, useEffect } from 'react';
-import backgroundImage from './asset/8753b371cf0479e35a4b170ca6e6d0f7f2780ec4.png';
-import logoImage from './asset/ba58a5f3aa25196557a855b49dbf09f5e5ecb6ab.png';
-import villaImage from './asset/9972f4784194880db4bcdb7739e82bbdba642935.png';
-import telereaImage from './asset/48cd90b6dc0cca744201c8074cd57f82c191345a.png';
-import telereaSecondaryImage from './asset/08c90b93dfdb23e5f8f2eacdd3f391af731fe2af.png';
-import sonasImage from './asset/1a28d1300648ac8c1a4187a1f5b9d942bf10c648.png';
-import sonasSecondaryImage from './asset/bae3ba7fda1cb6a231d8008ea010df8e70048e47.png';
-import wineryBarnImage from './asset/fc242ee5367c08266055da979c2edd8235d8a8af.png';
-import wineryBarnSecondaryImage from './asset/65a2f56098521bfbbfd7ae96dc864eef28ea4ee6.png';
-import salesforceOfficeImage from './asset/27475f32d38816e33432b356aaa1c55d709b34da.png';
-import salesforceOfficeSecondaryImage from './asset/b2efd5b1521bcd12f2dc43dcdcf3697965446046.png';
-import aiCodingImage from './asset/d5c6f2b13c7bbe15b67252c3487b25f433ef7e54.png';
-import aiCodingSecondaryImage from './asset/495aad397da894c43aedb020fe0661d999f6968e.png';
-import aiCodingDiagramImage from './asset/b74506a5967f1f2b15ac8ed014a8cfbaaaa5d1cc.png';
-import unityPrepImage from './asset/4db9d4fd5e1d09aa2bf7d30e85264fd4afd2189a.png';
-import unityPrepSecondaryImage from './asset/944e1aba4213f6788037dbc40ccaf8f0d5aaf25d.png';
+import backgroundImage from './assets/8753b371cf0479e35a4b170ca6e6d0f7f2780ec4.png';
+import logoImage from './assets/ba58a5f3aa25196557a855b49dbf09f5e5ecb6ab.png';
+import villaImage from './assets/9972f4784194880db4bcdb7739e82bbdba642935.png';
+import telereaImage from './assets/48cd90b6dc0cca744201c8074cd57f82c191345a.png';
+import telereaSecondaryImage from './assets/08c90b93dfdb23e5f8f2eacdd3f391af731fe2af.png';
+import sonasImage from './assets/1a28d1300648ac8c1a4187a1f5b9d942bf10c648.png';
+import sonasSecondaryImage from './assets/bae3ba7fda1cb6a231d8008ea010df8e70048e47.png';
+import wineryBarnImage from './assets/fc242ee5367c08266055da979c2edd8235d8a8af.png';
+import wineryBarnSecondaryImage from './assets/65a2f56098521bfbbfd7ae96dc864eef28ea4ee6.png';
+import salesforceOfficeImage from './assets/27475f32d38816e33432b356aaa1c55d709b34da.png';
+import salesforceOfficeSecondaryImage from './assets/b2efd5b1521bcd12f2dc43dcdcf3697965446046.png';
+import aiCodingImage from './assets/d5c6f2b13c7bbe15b67252c3487b25f433ef7e54.png';
+import aiCodingSecondaryImage from './assets/495aad397da894c43aedb020fe0661d999f6968e.png';
+import aiCodingDiagramImage from './assets/b74506a5967f1f2b15ac8ed014a8cfbaaaa5d1cc.png';
+import unityPrepImage from './assets/4db9d4fd5e1d09aa2bf7d30e85264fd4afd2189a.png';
+import unityPrepSecondaryImage from './assets/944e1aba4213f6788037dbc40ccaf8f0d5aaf25d.png';
 
 interface Project {
   id: number;
